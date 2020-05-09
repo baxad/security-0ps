@@ -1,0 +1,8 @@
+#check an apache log file
+#$ awk '$9 == 404 {print $1}' access.log | bash countem.sh | sort -rn
+#
+# after you found a suspicous address you can extract the field of
+# requests it has made using
+#
+#$ awk '$1 == "ip address" {print $0}' access.log | cut -d' ' -f7 | bash
+# countem.sh
