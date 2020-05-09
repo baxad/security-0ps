@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 #
-#description:
+# description:
 #
 # this script can serve xml data to a xml parsing api and read files of the target upon executed parameter entity
 # rather than serving xml or dtd files 
